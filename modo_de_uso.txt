@@ -27,6 +27,7 @@ Este programa ayuda a calcular las derivadas de una función, tanto la primera c
    \]
 
 Estas fórmulas permiten calcular las derivadas de manera precisa dependiendo del número de puntos utilizados y el tamaño del paso \( h \). El programa también calcula el error relativo respecto al valor exacto si se conoce la función derivada.
+
 ## Instrucciones
 
 1. Ejecutar el script en Python.
@@ -35,7 +36,10 @@ Estas fórmulas permiten calcular las derivadas de manera precisa dependiendo de
 4. Ingresar el paso `h`.
 
 
-# Recordar! Para elevar un emponente se utliza la notación ** (Ejemplo: x**2)
+# Recordar! 
+- Para elevar un emponente se utliza la notación ** (Ejemplo: x**2)
+- Super importante el uso de los parantesis para agrupar expresiones
+- sqrt(x) es la raíz cuadrada de x
 
 ## Requisitos
 
