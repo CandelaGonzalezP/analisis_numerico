@@ -1,0 +1,51 @@
+
+### METODO DE DIFERENCIAS centradas
+--------------------------------------------------------------------
+
+Este programa ayuda a calcular las derivadas de una función, tanto la primera como la segunda, utilizando el método de diferencias centradas. Este método es una técnica numérica que aproxima las derivadas de una función en un punto dado mediante el uso de valores de la función en puntos cercanos. Es especialmente útil cuando no se dispone de la derivada exacta o cuando se trabaja con datos discretos.
+
+### Fórmulas principales utilizadas:
+
+1. **Primera derivada (Diferencias centradas con 2 puntos):**
+   \[
+   f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
+   \]
+
+2. **Primera derivada (Diferencias centradas con 4 puntos):**
+   \[
+   f'(x) \approx \frac{-f(x+2h) + 8f(x+h) - 8f(x-h) + f(x-2h)}{12h}
+   \]
+
+3. **Segunda derivada (Diferencias centradas con 2 puntos):**
+   \[
+   f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}
+   \]
+
+4. **Segunda derivada (Diferencias centradas con 4 puntos):**
+   \[
+   f''(x) \approx \frac{-f(x+2h) + 16f(x+h) - 30f(x) + 16f(x-h) - f(x-2h)}{12h^2}
+   \]
+
+Estas fórmulas permiten calcular las derivadas de manera precisa dependiendo del número de puntos utilizados y el tamaño del paso \( h \). El programa también calcula el error relativo respecto al valor exacto si se conoce la función derivada.
+## Instrucciones
+
+1. Ejecutar el script en Python.
+2. Ingresar la función en notación de Python.
+3. Ingresar el punto `x0` donde se desea calcular la derivada.
+4. Ingresar el paso `h`.
+
+
+# Recordar! Para elevar un emponente se utliza la notación ** (Ejemplo: x**2)
+
+## Requisitos
+
+- Python 3.x
+- Librerías necesarias:
+  - `numpy`
+  - `sympy`
+  - `matplotlib`
+
+Para instalar las dependencias, ejecuta el siguiente comando en la terminal:
+
+```bash
+pip3 install numpy sympy matplotlib
