@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto implementa métodos de análisis numérico para calcular derivadas de funciones matemáticas en puntos específicos. Permite al usuario ingresar una función, un valor de `x` donde se desea calcular la derivada, y un valor de paso `h`. El programa utiliza la biblioteca `sympy` para realizar cálculos simbólicos y numéricos, mostrando resultados precisos y el error porcentual.
+Este proyecto implementa métodos de análisis numérico para calcular derivadas de funciones matemáticas en puntos específicos. Permite al usuario ingresar una función, un valor de `x` donde se desea calcular la derivada, y un valor de paso `h`. El programa utiliza la biblioteca `sympy` para cálculos simbólicos, `numpy` para cálculos numéricos, y `matplotlib` para la visualización gráfica de las funciones y sus derivadas, mostrando resultados precisos y el error porcentual.
 
 ## Características
 

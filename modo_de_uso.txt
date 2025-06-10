@@ -1,5 +1,5 @@
 
-### METODO DE DIFERENCIAS centradas
+### METODO DE DIFERENCIAS CENTRADAS
 --------------------------------------------------------------------
 
 Este programa ayuda a calcular las derivadas de una función, tanto la primera como la segunda, utilizando el método de diferencias centradas. Este método es una técnica numérica que aproxima las derivadas de una función en un punto dado mediante el uso de valores de la función en puntos cercanos. Es especialmente útil cuando no se dispone de la derivada exacta o cuando se trabaja con datos discretos.
@@ -37,7 +37,7 @@ Estas fórmulas permiten calcular las derivadas de manera precisa dependiendo de
 
 
 # Recordar! 
-- Para elevar un emponente se utliza la notación ** (Ejemplo: x**2)
+- Para elevar un exponente a una potencia, se utiliza el símbolo `**` (Ejemplo: 2**3 = 8)
 - Super importante el uso de los parantesis para agrupar expresiones
 - sqrt(x) es la raíz cuadrada de x
 
