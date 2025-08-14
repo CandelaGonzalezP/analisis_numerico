@@ -53,3 +53,15 @@ Para instalar las dependencias, ejecuta el siguiente comando en la terminal:
 
 ```bash
 pip3 install numpy sympy matplotlib
+
+## Tests
+
+El proyecto incluye tests automáticos para verificar que las funciones de derivadas y la corrección de sintaxis funcionan correctamente.
+
+##¿Cómo ejecutar los tests?
+
+Asegúrate de que el archivo de tests (test_calculos_derivadas.py) está en la misma carpeta que project.py.
+
+Ejecuta los tests con:
+
+python3 -m unittest test_calculos_derivadas.py
