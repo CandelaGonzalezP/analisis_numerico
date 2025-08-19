@@ -45,14 +45,12 @@ Estas fórmulas permiten calcular las derivadas de manera precisa dependiendo de
 
 - Python 3.x
 - Librerías necesarias:
-  - `numpy`
   - `sympy`
-  - `matplotlib`
 
 Para instalar las dependencias, ejecuta el siguiente comando en la terminal:
 
 ```bash
-pip3 install numpy sympy matplotlib
+pip3 install sympy 
 
 ## Tests
 

@@ -1,8 +1,13 @@
 # Proyecto de Análisis Numérico
 
+Este proyecto fue desarrollado como parte de la materia **Análisis Numérico** de la carrera Ingeniería en Informática.  
+Por **Candela González Privitera** y **Melina Gomez Torres**.
+
 ## Descripción
 
-Este proyecto implementa métodos de análisis numérico para calcular derivadas de funciones matemáticas en puntos específicos. Permite al usuario ingresar una función, un valor de `x` donde se desea calcular la derivada, y un valor de paso `h`. El programa utiliza la biblioteca `sympy` para cálculos simbólicos, `numpy` para cálculos numéricos, y `matplotlib` para la visualización gráfica de las funciones y sus derivadas, mostrando resultados precisos y el error porcentual.
+Este proyecto implementa el **método de diferencias centradas** para aproximar la primera y la segunda derivada de funciones matemáticas en un punto dado.  
+El usuario puede ingresar la función, el valor de `x` en el cual desea evaluar, y el valor del paso `h`.  
+El programa utiliza **Sympy** para cálculos simbólicos, **Numpy** para cálculos numéricos y maneja correcciones básicas de sintaxis en la entrada del usuario.
 
 ## Características
 
@@ -17,10 +22,16 @@ Este proyecto implementa métodos de análisis numérico para calcular derivadas
 ## Requisitos
 
 - Python 3.6 o superior.
-- Biblioteca `numpy`, `sympy`,`matplotlib`
+- Biblioteca `sympy`
 
 ## Instalación
 
 1. Clona este repositorio:
    ```bash
    git clone git@github.com:CandelaGonzalezP/analisis_numerico.git
+
+## Referencias
+
+- Chapra, S. C. & Canale, R. P. *Métodos numéricos para ingenieros*, McGraw-Hill, 2007.  
+- Burden, R. L. & Faires, J. D. *Métodos numéricos*, Thomson, 2002.  
+- Gerald, C. F. & Wheatley, P. O. *Análisis numérico con aplicaciones*, Prentice Hall, 2000.
